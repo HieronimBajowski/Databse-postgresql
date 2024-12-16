@@ -1,5 +1,5 @@
 # Databse Postgresql
-Weather data, analysis using postgresql
+Weather data, analysis using postgresql 17
 
 # FIRST STEP, GET POSTGRESQL
 1. Download PostgreSQL
