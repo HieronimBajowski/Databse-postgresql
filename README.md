@@ -3,13 +3,12 @@
 This project demonstrates a weather database created with PostgreSQL for portfolio purposes. It includes:
 - **Tables**: Locations, daily weather data, and weather statistics.
 - **Data**: Weather records for 20 major European cities from January to June 2024.
-- **SQL Scripts**: To create tables, import data, and analyze the weather.
+- **SQL Scripts**: To create tables and analyze the weather.
 
 ## Structure
 1. `create_tables.sql`: Script to create the database schema.
-2. `import_data.sql`: Script to import CSV data into PostgreSQL.
-3. `queries.sql`: Examples of queries to analyze the data.
-4. CSV files: `locations.csv`, `weather.csv`, `weather_statistics.csv`.
+2. `queries.sql`: Examples of queries to analyze the data.
+3. CSV files: `locations.csv`, `weather.csv`, `weather_statistics.csv`.
 
 ## How to Use
 
