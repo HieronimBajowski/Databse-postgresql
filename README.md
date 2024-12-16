@@ -1,7 +1,19 @@
-# Databse Postgresql
-Weather data, analysis using postgresql 17
+# Weather Database
 
-# FIRST STEP, GET POSTGRESQL
+This project demonstrates a weather database created with PostgreSQL for portfolio purposes. It includes:
+- **Tables**: Locations, daily weather data, and weather statistics.
+- **Data**: Weather records for 20 major European cities from January to June 2024.
+- **SQL Scripts**: To create tables, import data, and analyze the weather.
+
+## Structure
+1. `create_tables.sql`: Script to create the database schema.
+2. `import_data.sql`: Script to import CSV data into PostgreSQL.
+3. `queries.sql`: Examples of queries to analyze the data.
+4. CSV files: `locations.csv`, `weather.csv`, `weather_statistics.csv`.
+
+## How to Use
+
+### FIRST STEP, GET POSTGRESQL
 1. Download PostgreSQL
 
     Go to https://www.postgresql.org/download/.
@@ -23,7 +35,7 @@ Weather data, analysis using postgresql 17
         Username: postgres
         Password: the one you set.
 
-# SECOND STEP, CREATING DATABASE IN PGADMIN
+###  SECOND STEP, CREATING DATABASE IN PGADMIN
 
 1. Open pgAdmin.
 
@@ -35,7 +47,7 @@ Weather data, analysis using postgresql 17
    
 ![obraz](https://github.com/user-attachments/assets/042be10b-be29-4307-b293-5e9f18acdd1c)
 
-# THIRD STEP, CREATING TABLES IN DATABASE
+###  THIRD STEP, CREATING TABLES IN DATABASE
 
 1.Servers/PostgreSQL 17/Databases/weather(or name of your database) tools/query tools.(New query now will work on our database.)
 
@@ -47,7 +59,7 @@ Weather data, analysis using postgresql 17
 
 ![obraz](https://github.com/user-attachments/assets/0a140f67-1e3b-492b-9591-7e21e31282a8)
 
-# FOURTH STEP, IMPORT YOUR DATA/VALUES INTO TABLES
+###  FOURTH STEP, IMPORT YOUR DATA/VALUES INTO TABLES
 
 1.Servers/PostgreSQL 17/Databases/weather/schema/tables right click on your table name press 'import/export data' and choose the file path for your CSV file.
 
@@ -58,3 +70,7 @@ Weather data, analysis using postgresql 17
 2.Repeat first point with every table you have in your database.
 
 3.To make sure everything is alright execute this query "SELECT * FROM weather_statistics, weather, locations LIMIT 2" it will show first two rows in our tables so we can see if there are no errors.
+
+
+## Purpose
+This project showcases my ability to design, populate, and query relational databases using PostgreSQL.
