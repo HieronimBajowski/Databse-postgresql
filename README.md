@@ -43,3 +43,13 @@ Weather data, analysis using postgresql
 
 ![obraz](https://github.com/user-attachments/assets/0a140f67-1e3b-492b-9591-7e21e31282a8)
 
+# FOURTH STEP, IMPORT YOUR DATA/VALUES INTO TABLES
+
+1.Servers/PostgreSQL 17/Databases/weather/schema/tables right click on your table name press 'import/export data' and choose the file path for your CSV file.
+
+![obraz](https://github.com/user-attachments/assets/a15bdcb8-66e6-42dd-9809-18bffb50ce3e)
+
+![obraz](https://github.com/user-attachments/assets/c70c2400-bc53-4f9d-bb87-73e6ed920166)
+
+2.Repeat first point with every table you have in your database.
+3.To make sure everything is alright execute this query "SELECT * FROM weather_statistics, weather, locations LIMIT 2" it will show first two rows in our tables so we can see if there are no errors.
